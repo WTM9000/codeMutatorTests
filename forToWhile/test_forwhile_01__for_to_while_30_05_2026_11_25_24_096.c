@@ -3,8 +3,8 @@
 int main() {
     int i = 0;
     //Наш
-    for (;;) {
+    while (true) {
         printf("%d\n", i);
-    }
+         }
     return 0;
 }
