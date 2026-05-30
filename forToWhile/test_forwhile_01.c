@@ -3,7 +3,7 @@
 int main() {
     int i = 0;
     //Наш
-    for (;;) {
+    for (int i=5;;) {
         printf("%d\n", i);
     }
     return 0;

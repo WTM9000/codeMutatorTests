@@ -3,10 +3,13 @@
  * Expected candidates: 1
  */
 int test01(int a, int b) {
-    if (a && b){
-        printf("%d",a);
-        //smth
-        return 1;
+    while (a) {
+        if (b){
+            printf("%d",a);
+            //smth
+            return 1;
+            }
+        return 0;
     }
     return 0;
 }
